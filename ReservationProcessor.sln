@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationProcessor", "ReservationProcessor\ReservationProcessor.csproj", "{C420A351-5C83-4E26-930B-612C54E0D230}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqUtils", "..\200\bes200-rabbitmqutils\RabbitMqUtils.csproj", "{9BFB872A-60A1-4632-8941-B32023FF97DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C420A351-5C83-4E26-930B-612C54E0D230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C420A351-5C83-4E26-930B-612C54E0D230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C420A351-5C83-4E26-930B-612C54E0D230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C420A351-5C83-4E26-930B-612C54E0D230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFB872A-60A1-4632-8941-B32023FF97DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFB872A-60A1-4632-8941-B32023FF97DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFB872A-60A1-4632-8941-B32023FF97DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFB872A-60A1-4632-8941-B32023FF97DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99B5345B-07F5-43CF-B530-AB22000E1951}
+	EndGlobalSection
+EndGlobal
